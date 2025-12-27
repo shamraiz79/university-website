@@ -166,10 +166,11 @@ nav .fa{
     }
    
    }
-    .course-col{
+    /* .course-col{
         margin-bottom: 20px;
         flex-basis: 100%;
-    }
+        
+    } */
    .campus{
     width: 80%;
     margin: auto;
