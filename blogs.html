@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Dezine</title>
+    <!-- Google Font: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- headers section start -->
+    <section class="Sub-Headers">
+        <nav>
+            <a href="Index.html"><img src="Images/logo.png" alt="University Logo" class="logo"></a>
+           <div class="nav-links" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="Admissions.html">Blogs</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2026</h1>
+    </section>
+    <!-- Blogs content goes here. -->
+     <section class="blog-content">
+<div class="row">
+    <div class="blog-left">
+        <img src="Images/certificate.jpg" alt="">
+        <h2>Explore Our Certificates & Online Programs for 2026</h2>
+        <p>Discover a wide range of certificate and online programs designed to enhance your skills and advance your career in 2026. Our offerings include courses in technology, business, healthcare, and more, all taught by industry experts. Whether you're looking to upskill, reskill, or explore new fields, our flexible online programs provide the perfect opportunity to learn at your own pace. Join us in 2026 and take the next step in your professional journey with our comprehensive certificate programs.</p>
+        <br>
+         <p>Discover a wide range of certificate and online programs designed to enhance your skills and advance your career in 2026. Our offerings include courses in technology, business, healthcare, and more, all taught by industry experts. Whether you're looking to upskill, reskill, or explore new fields, our flexible online programs provide the perfect opportunity to learn at your own pace. Join us in 2026 and take the next step in your professional journey with our comprehensive certificate programs.</p>
+         <br>
+            <p>Discover a wide range of certificate and online programs designed to enhance your skills and advance your career in 2026. Our offerings include courses in technology, business, healthcare, and more, all taught by industry experts. Whether you're looking to upskill, reskill, or explore new fields, our flexible online programs provide the perfect opportunity to learn at your own pace. Join us in 2026 and take the next step in your professional journey with our comprehensive certificate programs.</p>
+            <div class="coment-box"> 
+                <h3>Leave a Comment</h3>
+                <form class="coment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Comment" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Submit</button>
+                </form>
+            </div>
+
+    </div>
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Bs Artificial Intelligence</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>20</span>
+        </div>
+        <div>
+            <span>Jornalisam</span>
+            <span>29</span>
+        </div>
+        <div>
+            <span>Auto Cat</span>
+            <span>24</span>
+        </div>
+    </div>
+</div>
+     </section>
+    
+   
+<!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are committed to providing quality education and fostering a supportive<br> learning environment for all our students.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Shamraiz Imtiaz</p> 
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+    
+</body>
+</html>
